@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>io.dogan.seslisozluk</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict/>
+	<key>createdby</key>
+	<string>Mehmet Dogan</string>
+	<key>description</key>
+	<string>Translate English &amp; Turkish</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Sesli Sozluk</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>127</integer>
+				<key>keyword</key>
+				<string>seslisozluk</string>
+				<key>runningsubtext</key>
+				<string>Fetching</string>
+				<key>script</key>
+				<string>python main.py {query}</string>
+				<key>subtext</key>
+				<string>Translate using seslisozluk</string>
+				<key>title</key>
+				<string>Translate...</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>AAD3099F-FFAF-4CE7-9D3D-6BD8F4EAF095</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>AAD3099F-FFAF-4CE7-9D3D-6BD8F4EAF095</key>
+		<dict>
+			<key>ypos</key>
+			<real>250</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://dogan.io</string>
+</dict>
+</plist>
